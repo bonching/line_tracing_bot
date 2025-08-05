@@ -25,3 +25,13 @@ sudo apt install ros-jazzy-join-state-publisher-gui
 ros2 run joint_state_publisher_gui joint_state_publisher_gui
 
 ros2 run rviz2 rviz2
+
+
+## running the robot using a launch file
+sudo apt install python3-colcon-common-extensions
+
+cd ~/ros2_ws
+colcon build
+source install/setup.bash
+
+
