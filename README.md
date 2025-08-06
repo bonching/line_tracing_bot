@@ -40,6 +40,9 @@ sudo apt install python3-colcon-common-extensions
 cd ~/ros2_ws
 colcon build
 source install/setup.bash
+
+ros2 launch line_tracing_bot display.launch.xml
+ros2 launch line_tracing_bot display.launch.py
 ```
 
 
