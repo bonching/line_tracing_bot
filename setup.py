@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'line_tracing_bot = line_tracing_bot.line_follower:main',
         ],
     },
 )
