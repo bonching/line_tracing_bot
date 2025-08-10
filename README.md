@@ -46,3 +46,20 @@ ros2 launch line_tracing_bot display.launch.py
 ```
 
 
+
+## running in gazebo simulation
+```
+sudo apt install ros-jazzy-ros-gz
+
+gz topic -l
+
+ros2 launch ros_gz_sim gz_sim.launch.py gz_args:=empty.sdf
+```
+
+https://wiki.ros.org/urdf/Tutorials/Adding%20Physical%20and%20Collision%20Properties%20to%20a%20URDF%20Model
+https://jpmc.udemy.com/course/ros2-tf-urdf-rviz-gazebo/learn/lecture/49399739#overview
+
+```
+```
+
+
