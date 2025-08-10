@@ -63,6 +63,7 @@ https://github.com/gazebosim/ros_gz/tree/ros2/ros_gz_bridge
 https://app.gazebosim.org/fuel/models
 
 ```
+ros2 run ros_gz_sim create -topic robot_description
 ```
 
 
