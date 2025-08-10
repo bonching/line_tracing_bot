@@ -11,6 +11,7 @@ setup(
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name + '/launch', ['launch/display.launch.py']),
         ('share/' + package_name + '/urdf', ['urdf/robot.urdf']),
+        ('share/' + package_name + '/rviz', ['rviz/urdf_config.rviz']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
