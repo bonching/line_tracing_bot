@@ -66,7 +66,7 @@ ros2 run ros_gz_sim create -topic robot_description
 ## gazebo plugins
 https://github.com/gazebosim/gz-sim/tree/gz-sim9/src/systems
 https://github.com/gazebosim/ros_gz/tree/ros2/ros_gz_bridge
-https://app.gazebosim.org/fuel/models
+https://app.gazebosim.org/fuel/models (search for openrobotics)
 
 ```
 gz topic -l
