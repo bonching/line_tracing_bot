@@ -58,6 +58,9 @@ ros2 launch ros_gz_sim gz_sim.launch.py gz_args:=empty.sdf
 
 https://wiki.ros.org/urdf/Tutorials/Adding%20Physical%20and%20Collision%20Properties%20to%20a%20URDF%20Model
 https://jpmc.udemy.com/course/ros2-tf-urdf-rviz-gazebo/learn/lecture/49399739#overview
+https://github.com/gazebosim/gz-sim/tree/gz-sim9/src/systems
+https://github.com/gazebosim/ros_gz/tree/ros2/ros_gz_bridge
+https://app.gazebosim.org/fuel/models
 
 ```
 ```
