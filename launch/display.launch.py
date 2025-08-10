@@ -9,7 +9,7 @@ from ament_index_python.packages import get_package_share_path
 
 def generate_launch_description():
 
-    urdf_path = os.path.join(get_package_share_path('line_tracing_bot'), 'urdf', 'robot.urdf')
+    urdf_path = os.path.join(get_package_share_path('line_tracing_bot'), 'urdf', 'robot.urdf.xacro')
     rviz_config_path = os.path.join(get_package_share_path('line_tracing_bot'), 'rviz', 'urdf_config.rviz')
 
     robot_description = ParameterValue(Command(['xacro ', urdf_path]), value_type=str)
