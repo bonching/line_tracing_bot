@@ -12,6 +12,7 @@ setup(
         ('share/' + package_name + '/launch', ['launch/display.launch.py']),
         ('share/' + package_name + '/urdf', ['urdf/common_properties.xacro']),
         ('share/' + package_name + '/urdf', ['urdf/mobile_base.xacro']),
+        ('share/' + package_name + '/urdf', ['urdf/mobile_base_gazebo.xacro']),
         ('share/' + package_name + '/urdf', ['urdf/robot.urdf.xacro']),
         ('share/' + package_name + '/rviz', ['rviz/urdf_config.rviz']),
     ],
