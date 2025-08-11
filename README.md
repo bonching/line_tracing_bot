@@ -74,9 +74,11 @@ gz topic -i -t /clock
 
 ros2 topic list
 ros2 topic info /cmd_vel
+ros2 topic echo /camera/camera_info
 ros2 interface show geometry_msgs/msg/Twist
 ros2 topic pub -r 1 /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.5}, angular: {z: 0.5}}"
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 
-
+## gazebo sensors
+https://github.com/gazebosim/gz-sensors/tree/gz-sensors9
